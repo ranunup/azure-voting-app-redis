@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'PLATFORM-ROBOT-DVS-TB-04-Slave-Develop' }
+    agent { label 'jenkins_docker_ephemeral_slave_nvme1_3' }
 
     stages {
         stage('Verify Branch') {
