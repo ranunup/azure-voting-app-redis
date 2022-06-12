@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'jenkins_docker_ephemeral_slave_nvme1_3' }
+    agent { label 'ubuntu_16_04_docker' }
 
     stages {
         stage('Verify Branch') {
